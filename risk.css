@@ -1,0 +1,119 @@
+/* General style and light beige background */
+body {
+  background-color: #f9f5ee; /* soft light beige */
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #49707a; /* soft bluish-grey */
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #f9f5ee;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #49707a;
+  margin-top: 0;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #e3d8ce;
+  color: #555;
+  text-align: center;
+  padding: 10px;
+}
+
+.img-office {
+  float: right;
+  width: 400px;    /* largeur souhaitée — ici 200px */
+  height: auto;    /* laisse le navigateur ajuster la hauteur pour garder les bonnes proportions */
+  margin-left: 15px; /* un petit espace entre l’image et le texte */
+  border: 3px solid #49707a;   /* contour : épaisseur 3px, couleur bleu‑gris */
+  border-radius: 8px;      /* bords légèrement arrondis */
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.3); /* ombre portée pour effet “relief” */
+}
+
+.img-garden {
+  float: right;
+  width: 300px;    /* largeur souhaitée — ici 200px */
+  height: auto;    /* laisse le navigateur ajuster la hauteur pour garder les bonnes proportions */
+  margin-left: 15px; /* un petit espace entre l’image et le texte */
+  border: 3px solid #49707a;   /* contour : épaisseur 3px, couleur bleu‑gris */
+  border-radius: 8px;      /* bords légèrement arrondis */
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.3); /* ombre portée pour effet “relief” */
+}
+
+.img-construction {
+  float: right;
+  width: 325px;    /* largeur souhaitée — ici 200px */
+  height: auto;    /* laisse le navigateur ajuster la hauteur pour garder les bonnes proportions */
+  margin-left: 15px; /* un petit espace entre l’image et le texte */
+  border: 3px solid #49707a;   /* contour : épaisseur 3px, couleur bleu‑gris */
+  border-radius: 8px;      /* bords légèrement arrondis */
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.3); /* ombre portée pour effet “relief” */
+}
+
+.img-maintenance {
+  float: right;
+  width: 450px;    /* largeur souhaitée — ici 200px */
+  height: auto;    /* laisse le navigateur ajuster la hauteur pour garder les bonnes proportions */
+  margin-left: 15px; /* un petit espace entre l’image et le texte */
+  border: 3px solid #49707a;   /* contour : épaisseur 3px, couleur bleu‑gris */
+  border-radius: 8px;      /* bords légèrement arrondis */
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.3); /* ombre portée pour effet “relief” */
+}
+
+.img-cleaner {
+  float: right;
+  width: 450px;    /* largeur souhaitée — ici 200px */
+  height: auto;    /* laisse le navigateur ajuster la hauteur pour garder les bonnes proportions */
+  margin-left: 15px; /* un petit espace entre l’image et le texte */
+  border: 3px solid #49707a;   /* contour : épaisseur 3px, couleur bleu‑gris */
+  border-radius: 8px;      /* bords légèrement arrondis */
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.3); /* ombre portée pour effet “relief” */
+}
+
